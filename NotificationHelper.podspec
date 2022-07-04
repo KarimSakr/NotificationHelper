@@ -68,7 +68,9 @@ Pod::Spec.new do |spec|
   # spec.platform     = :ios, "5.0"
 
   #  When using multiple platforms
+
    spec.ios.deployment_target = '10.0'
+
   # spec.osx.deployment_target = "10.7"
   # spec.watchos.deployment_target = "2.0"
   # spec.tvos.deployment_target = "9.0"
@@ -80,7 +82,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "http://github.com/KarimSakr/NotificationHelper", :tag => "#{spec.version}" }
+  spec.source       = { :git => "http://github.com/KarimSakr/NotificationHelper.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
