@@ -40,7 +40,7 @@ public class NotificationHandler{
         content.body = body
                
         // Create the trigger as a repeating event.
-        let trigger = UNTimeIntervalNotificationTrigger(timeInterval: TimeInterval(time * 60), repeats: true)
+        let trigger = UNTimeIntervalNotificationTrigger(timeInterval: TimeInterval(time * 3600), repeats: true)
             
         let request = UNNotificationRequest(identifier: uuid, content: content, trigger: trigger)
             center.add(request){(error) in
